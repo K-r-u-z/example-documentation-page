@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-main{
+.main-doc{
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -14,14 +14,43 @@ main{
 #navbar{
     display: flex;
     flex-direction: column;
-    padding: 20px 20px;
+    padding: 20px 0;
     align-items: center;
-    position: absolute;
-    width: 25%;
-    max-width: 25%;
+    position: fixed;
+    width: 100%;
+    max-width: 300px;
     height: 100%;
     border-right: 3px solid black;
+    margin-left: -10px;
 }
+
+#navbar h1{
+    margin-bottom: 20px;
+}
+
+#navbar li{
+    width: 290px;
+    list-style: none;
+    padding: 10px;
+    border-top: 1px solid black;
+    padding-right:0px;
+    margin-left: -0px;
+    text-align: left;
+
+}
+
+#navbar li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+#navbar li a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    margin-left: 20px;
+}
+
 
 /* Main Section */
 
@@ -30,7 +59,8 @@ main{
     flex-direction: column;
     height: 100%;
     margin-left: 35%;
-    max-width: 50%;
+    width: 100%;
+    max-width: 60%;
     position: relative;
 }
 
