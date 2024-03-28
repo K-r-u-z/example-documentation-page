@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+/* Navbar */
+
+#navbar{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    align-items: center;
+    position: absolute;
+    width: 25%;
+    max-width: 25%;
+    height: 100%;
+    border-right: 3px solid black;
+}
+
+/* Main Section */
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 35%;
+    max-width: 50%;
+    position: relative;
+}
+
+.main-section header{
+    margin-top: 20px;
+}
