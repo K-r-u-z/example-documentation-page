@@ -1,12 +1,24 @@
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+p{
+    color: rgb(77, 77, 77);
+}
+
+h1{
+    font-weight: normal;
+}
+
+li{
+    color: rgb(77, 77, 77);
 }
 
 .main-doc{
     display: flex;
     flex-direction: column;
-    margin: auto;
 }
 
 /* Navbar */
@@ -20,7 +32,7 @@
     width: 100%;
     max-width: 300px;
     height: 100%;
-    border-right: 3px solid black;
+    border-right: 3px solid rgb(146, 146, 146);
     margin-left: -10px;
 }
 
@@ -47,8 +59,8 @@
 
 #navbar li a{
     text-decoration: none;
-    color: rgb(24, 24, 24);
     margin-left: 20px;
+    color: rgb(77, 77, 77);
 }
 
 
@@ -57,11 +69,11 @@
 .main-section{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     height: 100%;
     margin-left: 400px;;
-    margin-top: 30px;
+    margin-top: 15px;
     width: 100%;
     max-width: 75%;
     position: relative;
@@ -69,14 +81,70 @@
 }
 
 .main-section:first-of-type{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
 
 .main-section header{
     margin-bottom: 20px;
+    margin-left: -75px;
 }
+
+.main-section p{
+    margin-bottom: 20px;
+    font-size: 16;
+}
+
+.main-section ul li{
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.main-section p,
+.main-section ul li{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* CSS */
+.code-snippets{
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: rgb(145, 94, 0);
+}
+
+.code-indent{
+    padding: 20px;
+    color: rgba(17, 0, 255, 0.568);
+}
+
+.double-indent{
+    padding-left: 40px;
+}
+
+#reference{
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1024px) {
     .main-section{
