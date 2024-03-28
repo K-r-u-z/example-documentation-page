@@ -107,6 +107,10 @@ li{
     line-height: 25px;
 }
 
+#Reference{
+    padding-bottom: 40px;
+}
+
 /* CSS */
 .code-snippets{
     background-color: #f7f7f7;
@@ -125,25 +129,10 @@ li{
     padding-left: 40px;
 }
 
-#reference{
-    margin-bottom: 40px;
+
+.code-span{
+    color: rgba(17, 0, 255, 0.568);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width: 1024px) {
