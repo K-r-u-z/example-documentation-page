@@ -1,0 +1,1 @@
+This is an example documentation page. I developed this while working on the certification projects on freecodecamp.org. This page demonstrates more capabilities in using HTML and CSS.
